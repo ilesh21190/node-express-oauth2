@@ -57,7 +57,7 @@ function getClient(clientId, clientSecret) {
 }
 
 function getUser(username, password) {
-	console.log('user ..'+username);
+	// console.log('user ..'+username);
 
 	return User.findOne({
 		email: username
@@ -75,7 +75,7 @@ function getUser(username, password) {
 					return false;
 				}
 			} else {
-				console.log('seriouslly111')
+				// console.log('seriouslly111')
 				return false;
 			}
 		})
